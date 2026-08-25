@@ -1,0 +1,65 @@
+body {
+  background-color: #4C3077
+}
+
+.barra-superior {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #32185C;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 20px;
+  font-family:'deltarune';
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo a {
+  color: #6B5294;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s;
+}
+
+.logo a:hover {
+  color: #917DB1;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-links a {
+  color: #6B5294;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s;
+}
+
+.menu-links a:hover {
+  color: #917DB1;
+}
+
+@font-face {
+    font-family: deltarune;
+    src: url(deltarunefont/deltarune.ttf);
+}
