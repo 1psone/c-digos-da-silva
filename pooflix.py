@@ -9,15 +9,15 @@ class Filmes():
         self.genero = genero
         self.duracao = duracao
 
-#metodos "class Filmes()"
+    #metodos "class Filmes()"
     def ExibirFilme(self):
         print (f'''-------FILME: {self.nome}-------
-Data de Lançamento: {self.anolancamento}
-Diretor/Criador: {self.diretor}
-Genero: {self.genero}
-Duração: {self.duracao}
------------------------------------
-''')
+            Data de Lançamento: {self.anolancamento}
+            Diretor/Criador: {self.diretor}
+            Genero: {self.genero}
+            Duração: {self.duracao}
+            -----------------------------------
+            ''')
 
 #classe das series
 class Series():
